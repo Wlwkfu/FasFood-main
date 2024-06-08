@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&family=Poppins:wght@300;400;500;700&display=swap');*{font-family: 'Poppins', sans-serif;}
+.head{
+    background: url("backgrounds/Food.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav li a{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.josen{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text h1{
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.teste{
+    color: #FF5600;
+
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p{
+    line-height: 25px;
+}
+  
+.menyu-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.foodMenyu{
+    background-color: #F8F8F8;
+}
+.servicees{
+    background: url("backgrounds/section_bg04.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .about .figura p{
+        font-size: 10px;
+    }
+}
